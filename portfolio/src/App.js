@@ -1,7 +1,7 @@
 //Components
 import Footer from './components/Footer.js'
 import Header from './components/Header';
-import Projects from './components/Projects';
+import Projects from './PageRoutes/Projects';
 
 //Page Routes
 import AboutMe from './PageRoutes/AboutMe.js';
