@@ -16,15 +16,15 @@ function App() {
     <div>
       <Router>
       < Header/>
-        <Routes>
           <div>
+        <Routes>
             <Route path ='/' element ={<AboutMe/>}/>
             <Route path='/projects' element={< Projects/>}/>
             <Route path='/contact' element={<Contact/>} />
             <Route path='/skills' element={<Skills/>}/>
-          </div>
-            < Footer/>
         </Routes>
+            < Footer/>
+          </div>
       </Router>
     </div>
   );
