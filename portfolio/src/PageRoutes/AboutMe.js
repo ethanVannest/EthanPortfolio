@@ -1,19 +1,11 @@
 import React from 'react'
-
 const AboutMe = () => {
+    let pictureName = 'headshot'
   return (
     <div className='AboutPage'>
-        <div className='titleDiv'>
-            
-        </div>
-
-        <div>
-            <span>
-                Some Stuff About Me
-            </span>
-        </div>
+        <img src={require('../images/Ethan_headshot.jpeg')} alt={pictureName}/>
     </div>
   )
 }
-
+// {require(pic1)}
 export default AboutMe
