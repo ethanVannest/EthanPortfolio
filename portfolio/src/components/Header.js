@@ -1,15 +1,27 @@
 import React from 'react'
+import { useEffect, useState } from 'react'
 //Router Dom
 import { Link } from 'react-router-dom'
 //CSS
 import './Header.css'
 
 const Header = () => {
+    const [head, setHead] = useState(false)
+
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+          window.addEventListener("scroll", () =>
+            setHead(window.pageYOffset > 100)
+          );
+        }
+      }, []);
   return (
-    <nav>
+    <nav className={`${
+        head ? "nav" : "noNav"
+      }`}>
         <div>
             <div className='headerDiv'>
-                <h1 className='header'>Ethan Vannest</h1>
+                <h1 className='header'>ethanVannest</h1>
             </div>
         </div>
         <ul>
