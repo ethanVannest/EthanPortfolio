@@ -1,4 +1,9 @@
 import React from 'react'
+
+//CSS
+import './AboutMe.css'
+
+
 const AboutMe = () => {
     let pictureName = 'headshot'
   return (

@@ -1,9 +1,14 @@
 import React from 'react'
 
+//CSS
+import './Skills.css'
+
 const Skills = () => {
   return (
     <div>
-        skills
+        <p>
+            REACT,HTML,CSS, MongoDB, Node, Express, Python, Flask, PostgresSQL,Tailwind
+        </p>
     </div>
   )
 }
