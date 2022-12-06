@@ -3,7 +3,10 @@
     height: 50px;
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 ul {
     margin: 0;
