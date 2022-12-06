@@ -9,7 +9,7 @@ import Contact from './PageRoutes/Contact.js';
 
 //Dependencies
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import Skills from './PageRoutes/Skills.js';
+import SkillsPage from './PageRoutes/SkillsPage.js';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
             <Route path ='/' element ={<AboutMe/>}/>
             <Route path='/projects' element={< Projects/>}/>
             <Route path='/contact' element={<Contact/>} />
-            <Route path='/skills' element={<Skills/>}/>
+            <Route path='/skills' element={<SkillsPage/>}/>
         </Routes>
             < Footer/>
           </div>
