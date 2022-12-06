@@ -1,0 +1,17 @@
+.footer{
+    background-color: #201E20;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+ul {
+    margin: 0;
+}
+.iconLinks{
+    padding: 0px;
+    margin-right: 6%;
+    /* border: solid purple 2px; */
+    display: flex;
+    justify-content: space-between;
+}

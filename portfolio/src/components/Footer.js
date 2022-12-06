@@ -7,20 +7,22 @@ import './Footer.css'
 const Footer =() => {
   return (
     <div className='footer'>
-        <div className='githubDiv'>
-            <a className='githubIcon' href='https://github.com/ethanVannest'>
-                <i className="fa-brands fa-github"></i>
-            </a>
-        </div>
-        <div className='linkedinDiv'>
-            <a className='linkedInIcon' href='https://www.linkedin.com/in/ethan-vannest/'>
-                 <i className="fa-brands fa-linkedin"></i>
-            </a>   
-        </div>
-            <div>
-                <Link to="/contact"><i className="fa-solid fa-envelope"></i></Link>    
-            </div>
-        </div>
+        <ul className='iconLinks'>
+            <li>
+                <a className='githubIcon' href='https://github.com/ethanVannest'>
+                    <i className="fa-brands fa-github fa-2x"></i>
+                </a>
+            </li>
+            <li>
+                <a className='linkedInIcon' href='https://www.linkedin.com/in/ethan-vannest/'>
+                    <i className="fa-brands fa-linkedin fa-2x"></i>
+                </a>   
+            </li>
+            <li>
+                <Link to="/contact"><i className="fa-solid fa-envelope fa-2x"></i></Link>    
+            </li>
+        </ul>
+    </div>
   )
 }
 
