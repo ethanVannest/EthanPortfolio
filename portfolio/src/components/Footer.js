@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const Footer =() => {
   return (
@@ -12,7 +14,7 @@ const Footer =() => {
             
         </div>
         <div>
-        <a href="mailto:ethanvannest@gmail.com">Send Email <i className="fa-solid fa-envelope"></i></a>    
+        <Link to="/contact"><i className="fa-solid fa-envelope"></i></Link>    
         </div>
         </div>
   )
