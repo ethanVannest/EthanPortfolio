@@ -18,18 +18,21 @@ const Header = () => {
   return (
     <nav className={`${
         head ? "nav" : "noNav"
-      }`}>
-        <div>
+    }`}>
+        <div className='navText'>
             <div className='headerDiv'>
-                <h1 className='header'>ethanVannest</h1>
+                <h1 className='header'><b>ethanVannest</b></h1>
+            </div>
+            <div className='linksDiv'>
+                <ul className='navLinks'>
+                    
+                    <li> <Link to='/'>_About Me</Link> </li>
+                    <li> <Link to='/contact'> _Let's Connect</Link> </li>
+                    <li> <Link to='/projects'>_Projects</Link> </li>
+                    <li> <Link to='/skills'> _Skills</Link> </li>
+                </ul>
             </div>
         </div>
-        <ul>
-            <li> <Link to='/'>About Me</Link> </li>
-            <li> <Link to='/contact'> Let's Connect</Link> </li>
-            <li> <Link to='/projects'>Projects</Link> </li>
-            <li> <Link to='/skills'> Skills </Link> </li>
-        </ul>
     </nav>
   )
 }

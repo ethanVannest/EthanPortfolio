@@ -1,16 +1,46 @@
 .nav {
-    background-color: aliceblue;
+    background-color: #201E20;
     padding: 0;
-    width: 100%;
+    width: 75%;
     position: fixed;
     top: 0;
+}   
+.noNav {
+    background-color: #201E20;
+    padding-bottom: 5px;
 }
+.navLinks{
+    list-style: none;
+    align-items: center;
+}
+.navLinks > li > a {
+    text-decoration: none;
+}
+.linksDiv{
+    align-items: center;
+}
+li{
+    padding-right: 15%;
+    transition: .5s;
+    font-size: 20px;
+}
+li:hover{
+    font-size: 25px;
+}
+li > a {
+    color: #DDC3A5;
+}
+li > a:visited{
+    color: #DDC3A5;
+}
+
 .header{
     margin: 0;
+    padding: 10px;
+    color: #E0A96D;
 }
-ul{
+ul li{
     margin: 0;
+    display: inline-flex;
 }
-.noNav {
-    display: none;
-}
+

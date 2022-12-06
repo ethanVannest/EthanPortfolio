@@ -9,13 +9,12 @@ const Footer =() => {
     <div className='footer'>
         <div className='githubDiv'>
             <a className='githubIcon' href='https://github.com/ethanVannest'>
-                github
                 <i className="fa-brands fa-github"></i>
             </a>
         </div>
         <div className='linkedinDiv'>
             <a className='linkedInIcon' href='https://www.linkedin.com/in/ethan-vannest/'>
-                linkedin <i className="fa-brands fa-linkedin"></i>
+                 <i className="fa-brands fa-linkedin"></i>
             </a>   
         </div>
             <div>
