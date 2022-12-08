@@ -1,3 +1,39 @@
+@keyframes fadeIn{
+    0% {width: 0%;}
+    100% {width: 90%}
+}
+@keyframes fadeInHTML{
+    0% {width: 0%;}
+    100% {width: 85%}
+}
+@keyframes fadeInMongo{
+    0% {width: 0%;}
+    100% {width: 60%}
+}
+@keyframes fadeInNode{
+    0% {width: 0%;}
+    100% {width: 70%}
+}
+@keyframes fadeInExpress{
+    0% {width: 0%;}
+    100% {width: 70%}
+}
+@keyframes fadeInPython{
+    0% {width: 0%;}
+    100% {width: 50%}
+}
+@keyframes fadeInFlask{
+    0% {width: 0%;}
+    100% {width: 40%}
+}
+@keyframes fadeInPost{
+    0% {width: 0%;}
+    100% {width: 35%}
+}
+@keyframes fadeInTailwind{
+    0% {width: 0%;}
+    100% {width: 20%}
+}
 .skillsBar {
     border: solid black 2px;
     background-color: #201E20;
@@ -32,33 +68,53 @@
 }
 .skillBarReact {
     width: 90%;
+    animation-name: fadeIn;
+    animation-duration: 1s;
 }
 .skillBarHTML {
     width: 85%;
+    animation-name: fadeInHTML;
+    animation-duration: 1s;
 }
 .skillBarCSS {
     width: 90%;
+    animation-name: fadeIn;
+    animation-duration: 1s;
 }
 .skillBarMongo {
     width: 60%;
+    animation-name: fadeInMongo;
+    animation-duration: 1s;
 }
 .skillBarNode {
     width: 70%;
+    animation-name: fadeInNode;
+    animation-duration: 1s;
 }
 .skillBarExpress {
     width: 70%;
+    animation-name: fadeInExpress;
+    animation-duration: 1s;
 }
 .skillBarPython {
     width: 50%;
+    animation-name: fadeInPython;
+    animation-duration: 1s;
 }
 .skillBarFlask {
     width: 40%;
+    animation-name: fadeInFlask;
+    animation-duration: 1s;
 }
 .skillBarPost {
     width: 35%;
+    animation-name: fadeInPost;
+    animation-duration: 1s;
 }
 .skillBarTailwind {
     width: 20%;
+    animation-name: fadeInTailwind;
+    animation-duration: 1s;
 }
 
 .gapBar {
