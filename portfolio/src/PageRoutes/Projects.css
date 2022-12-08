@@ -27,6 +27,31 @@
     border-radius: 10px;
     
 }
+.left {
+    margin: auto 0;
+    background-color: #201E20;
+    width: 20%;
+    height: 20px;
+}
+.right{
+    margin: auto 0;
+    background-color: #201E20;
+    width: 70%;
+    height: 20px;
+}
+.connectHeader{
+    background-color:#201E20;
+    color: #E0A96D;
+    border-radius: 10px;
+    padding: 15px;
+}
+.contactHeaderDiv {
+    display: flex;
+    justify-content: center;
+}
+.gap{
+    height: 50px;
+}
 .projectDescription {
     margin: 10px 10% 0 10%;
     font-size: 2em;

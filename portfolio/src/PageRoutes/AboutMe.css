@@ -11,12 +11,48 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 10px; 
 }
 .textDiv {
     max-width: 50%;
+    justify-content: center;
 }
 .textContainer {
     display: flex;
     justify-content: center;
+}
+.aboutText {
+    background-color: #201E20;
+    color: #DDC3A5;
+    border-radius: 10px;
+    padding: 10px;
+}
+@media (max-width: 1100px) {
+    .headshot {
+        height: 50vh;
+    }
+}
+@media (max-width: 700px) {
+    .headshot {
+        height: 45vh;
+    }
+    .AboutPage {
+        font-size: 30px;
+    }
+}
+@media (max-width: 500px) {
+    .headshot {
+        height: 30vh;
+    }
+    .AboutPage {
+        font-size: 20px;
+    }
+}
+@media (max-width: 400px) {
+    .headshot {
+        height: 25vh;
+    }
+    .AboutPage {
+        font-size: 15px;
+    }
 }

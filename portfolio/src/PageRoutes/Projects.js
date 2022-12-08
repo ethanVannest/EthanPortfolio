@@ -10,7 +10,12 @@ const Projects = () => {
   let n4 = 'tamagotchi'
   return (
     <div>
-      <h3>Current Projects</h3>
+      <div className='contactHeaderDiv'>
+                <div className='left'></div>
+                    <h1 className='connectHeader'>Projects
+                    </h1>
+                <div className='right'></div>
+            </div>
       <div>
     
         {/* Greenly */}
@@ -96,6 +101,7 @@ const Projects = () => {
               <p className='projectDescription'>
                 Created using HTML, CSS, and Javascript and made functional by the use of loops, conditionals, and class organization.
               </p>
+              <div className='gap'></div>
           </div>
         </div>
       </div>

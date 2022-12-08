@@ -22,10 +22,12 @@ const Contact = () => {
   
   return (
     <div className='contactContainer'>
-        <div className='contactHeaderDiv'>
-            <h1 className='connectHeader'>Connect With Me
-            </h1>
-        </div>
+            <div className='contactHeaderDiv'>
+                <div className='left'></div>
+                    <h1 className='connectHeader'>Connect With Me
+                    </h1>
+                <div className='right'></div>
+            </div>
         <div className='contactDiv'>
             <form ref={form} onSubmit={sendEmail}>
             
