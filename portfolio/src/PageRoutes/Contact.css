@@ -44,3 +44,8 @@ body {
 .contactDiv {
     margin: 10px 10% 0 10%
 }
+.contactHeaderDiv {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid white 2px;
+}
