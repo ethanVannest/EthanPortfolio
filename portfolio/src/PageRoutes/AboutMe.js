@@ -17,7 +17,7 @@ const AboutMe = () => {
                     > Hello! My name is Ethan Vannest, I am a frontend developer from Colorado. 
                 </p>
                 <p className='aboutText'>
-                    > I love to create attractice looking products that are user intuitive, that also have something a bit unique to it.
+                    > I love to create attractive looking products that are user intuitive, that also have something a bit unique to it.
                 </p>
                 <p className='aboutText'>
                     > I also am a huge fan of music and anything that pertains to video games, reading, and/or cars. 

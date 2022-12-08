@@ -1,0 +1,66 @@
+.skillsBar {
+    border: solid black 2px;
+    background-color: #201E20;
+    color: #DDC3A5;
+    height: 70vh;
+    margin: 2rem 0 0 0;
+    width: 45%;
+    overflow: scroll;
+    border-radius: 10px;
+    
+}
+.skillsComp {
+    display: flex;
+    justify-content: center;
+}
+.skill {
+    border: solid black 2px;
+    height: 1.8em;
+    margin: 10px;
+    padding: 10px 10px 20px 10px;
+    border-radius: 10px;
+}
+.percent{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+.skillBarReact, .skillBarHTML, .skillBarCSS, .skillBarMongo, .skillBarNode, .skillBarExpress, .skillBarPython, .skillBarFlask, .skillBarPost, .skillBarTailwind{
+    border: solid black 1px;
+    background-color: #E0A96D;
+    border-radius: 10px;
+}
+.skillBarReact {
+    width: 90%;
+}
+.skillBarHTML {
+    width: 85%;
+}
+.skillBarCSS {
+    width: 90%;
+}
+.skillBarMongo {
+    width: 60%;
+}
+.skillBarNode {
+    width: 70%;
+}
+.skillBarExpress {
+    width: 70%;
+}
+.skillBarPython {
+    width: 50%;
+}
+.skillBarFlask {
+    width: 40%;
+}
+.skillBarPost {
+    width: 35%;
+}
+.skillBarTailwind {
+    width: 20%;
+}
+
+.gapBar {
+    height: 10px;
+}

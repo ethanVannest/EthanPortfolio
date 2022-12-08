@@ -6,6 +6,7 @@ import './SkillsPage.css'
 const SkillsPage = () => {
   return (
     <div>
+      <h2>Skills</h2>
         <Skills/>
     </div>
   )
