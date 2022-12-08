@@ -125,3 +125,13 @@
         width: 90%;
     }
 }
+@media (max-width: 470px) {
+    .skillsBar {
+        width: 80%;
+    }
+}
+@media (max-width: 700px) {
+    .skillsBar {
+        width: 70%;
+    }
+}
