@@ -39,7 +39,7 @@
     background-color: #201E20;
     color: #DDC3A5;
     height: 70vh;
-    margin: 2rem 0 0 0;
+    margin: 1em 0 4em 0;
     width: 45%;
     overflow: scroll;
     border-radius: 10px;
@@ -119,4 +119,9 @@
 
 .gapBar {
     height: 10px;
+}
+@media (max-width: 400px) {
+    .skillsBar {
+        width: 90%;
+    }
 }

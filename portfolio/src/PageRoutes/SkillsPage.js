@@ -6,7 +6,12 @@ import './SkillsPage.css'
 const SkillsPage = () => {
   return (
     <div>
-      <h2>Skills</h2>
+       <div className='contactHeaderDiv'>
+                <div className='left'></div>
+                    <h1 className='connectHeader'>Skills
+                    </h1>
+                <div className='right'></div>
+            </div>
         <Skills/>
     </div>
   )
